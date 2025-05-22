@@ -1,0 +1,38 @@
+[
+  {
+    "op": "move",
+    "frompath": "/server/behaviors/9/dropsByType",
+    "path": "/dropsByType",
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "move",
+    "frompath": "/server/behaviors/9/dropsByType",
+    "path": "/dropsByType",
+    "file": "game:entities/land/shiver.json"
+  },
+  {
+    "op": "move",
+    "frompath": "/server/behaviors/9/dropsByType",
+    "path": "/dropsByType",
+    "file": "game:entities/land/bowtorn.json"
+  },
+    {
+    "op": "replace",
+    "path": "/server/behaviors/3/hoursToDecay",
+    "value": 0.5,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/3/hoursToDecay",
+    "value": 0.5,
+    "file": "game:entities/land/shiver.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/3/hoursToDecay",
+    "value": 0.5,
+    "file": "game:entities/land/bowtorn.json"
+  },
+]
