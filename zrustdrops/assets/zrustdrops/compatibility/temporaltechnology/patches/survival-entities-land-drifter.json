@@ -1,0 +1,15 @@
+[
+  {
+    "op": "remove",
+    "path": "/drops",
+    "file": "game:entities/land/drifter.json",
+    "side": "server"
+  },
+  {
+    "op": "move",
+    "frompath": "/server/behaviors/9/dropsByType",
+    "path": "/dropsByType",
+    "file": "game:entities/land/drifter.json",
+    "side": "server"
+  }
+]

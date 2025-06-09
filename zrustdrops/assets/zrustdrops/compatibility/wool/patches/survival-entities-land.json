@@ -3,6 +3,7 @@
     "op": "move",
     "frompath": "/behaviorConfigs/harvestable/dropsByType",
     "path": "/dropsByType",
-    "file": "game:entities/land/drifter.json"
+    "file": "game:entities/land/drifter.json",
+    "side": "server"
   }
 ]
