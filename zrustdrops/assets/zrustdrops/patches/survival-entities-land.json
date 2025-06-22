@@ -1,82 +1,82 @@
 [
-  {
-    "op": "move",
-    "frompath": "/server/behaviors/9/dropsByType",
-    "path": "/dropsByType",
-    "file": "game:entities/land/drifter.json",
-    "dependsOn": [ { "modid": "temporaltechnology", "invert": true } ],
-    "side": "server"
-  },
-  {
-    "op": "move",
-    "frompath": "/server/behaviors/9/dropsByType",
-    "path": "/dropsByType",
-    "file": "game:entities/land/shiver.json",
-    "side": "server"
-  },
-  {
-    "op": "move",
-    "frompath": "/server/behaviors/9/dropsByType",
-    "path": "/dropsByType",
-    "file": "game:entities/land/bowtorn.json",
-    "side": "server"
-  },
-    {
-    "op": "replace",
-    "path": "/server/behaviors/3/hoursToDecay",
-    "value": 0.1,
-    "file": "game:entities/land/drifter.json",
-    "side": "server"
-  },
-  {
-    "op": "replace",
-    "path": "/server/behaviors/3/hoursToDecay",
-    "value": 0.1,
-    "file": "game:entities/land/shiver.json",
-    "side": "server"
-  },
-  {
-    "op": "replace",
-    "path": "/server/behaviors/3/hoursToDecay",
-    "value": 0.1,
-    "file": "game:entities/land/bowtorn.json",
-    "side": "server"
-  },
-  {
-    "op": "remove",
-    "path": "/client/behaviors/4",
-    "file": "game:entities/land/drifter.json",
-    "side": "server"
-  },
-  {
-    "op": "remove",
-    "path": "/client/behaviors/4",
-    "file": "game:entities/land/shiver.json",
-    "side": "server"
-  },
-  {
-    "op": "remove",
-    "path": "/client/behaviors/4",
-    "file": "game:entities/land/bowtorn.json",
-    "side": "server"
-  },
-  {
-    "op": "remove",
-    "path": "/server/behaviors/9",
-    "file": "game:entities/land/drifter.json",
-    "dependsOn": [ { "modid": "temporaltechnology", "invert": true } ],
-    "side": "server"
-  },
-  {
-    "op": "remove",
-    "path": "/server/behaviors/9",
-    "file": "game:entities/land/shiver.json",
-    "side": "server"
-  },
-  {
-    "op": "remove",
-    "path": "/server/behaviors/9",
-    "file": "game:entities/land/bowtorn.json",
-    "side": "server"
-  }
+	{
+		"op": "move",
+		"frompath": "/server/behaviors/9/dropsByType",
+		"path": "/dropsByType",
+		"file": "game:entities/land/drifter.json",
+		"dependsOn": [ { "modid": "temporaltechnology", "invert": true } ],
+		"side": "server"
+	},
+	{
+		"op": "move",
+		"frompath": "/server/behaviors/9/dropsByType",
+		"path": "/dropsByType",
+		"file": "game:entities/land/shiver.json",
+		"side": "server"
+	},
+	{
+		"op": "move",
+		"frompath": "/server/behaviors/9/dropsByType",
+		"path": "/dropsByType",
+		"file": "game:entities/land/bowtorn.json",
+		"side": "server"
+	},
+		{
+		"op": "replace",
+		"path": "/server/behaviors/3/hoursToDecay",
+		"value": 0.1,
+		"file": "game:entities/land/drifter.json",
+		"side": "server"
+	},
+	{
+		"op": "replace",
+		"path": "/server/behaviors/3/hoursToDecay",
+		"value": 0.1,
+		"file": "game:entities/land/shiver.json",
+		"side": "server"
+	},
+	{
+		"op": "replace",
+		"path": "/server/behaviors/3/hoursToDecay",
+		"value": 0.1,
+		"file": "game:entities/land/bowtorn.json",
+		"side": "server"
+	},
+	{
+		"op": "remove",
+		"path": "/client/behaviors/4",
+		"file": "game:entities/land/drifter.json",
+		"side": "server"
+	},
+	{
+		"op": "remove",
+		"path": "/client/behaviors/4",
+		"file": "game:entities/land/shiver.json",
+		"side": "server"
+	},
+	{
+		"op": "remove",
+		"path": "/client/behaviors/4",
+		"file": "game:entities/land/bowtorn.json",
+		"side": "server"
+	},
+	{
+		"op": "remove",
+		"path": "/server/behaviors/9",
+		"file": "game:entities/land/drifter.json",
+		"dependsOn": [ { "modid": "temporaltechnology", "invert": true } ],
+		"side": "server"
+	},
+	{
+		"op": "remove",
+		"path": "/server/behaviors/9",
+		"file": "game:entities/land/shiver.json",
+		"side": "server"
+	},
+	{
+		"op": "remove",
+		"path": "/server/behaviors/9",
+		"file": "game:entities/land/bowtorn.json",
+		"side": "server"
+	}
 ]
