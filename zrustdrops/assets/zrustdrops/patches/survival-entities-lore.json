@@ -3,7 +3,7 @@
 		"op": "move",
 		"frompath": "/server/behaviors/9/dropsByType",
 		"path": "/dropsByType",
-		"file": "game:entities/land/drifter.json",
+		"file": "game:entities/lore/drifter.json",
 		"dependsOn": [ { "modid": "temporaltechnology", "invert": true } ],
 		"side": "server"
 	},
@@ -11,7 +11,7 @@
 		"op": "move",
 		"frompath": "/server/behaviors/9/dropsByType",
 		"path": "/dropsByType",
-		"file": "game:entities/land/shiver.json",
+		"file": "game:entities/lore/shiver.json",
 		"dependsOn": [ { "modid": "wilderlandsdrops", "invert": true } ],
 		"side": "server"
 	},
@@ -19,7 +19,7 @@
 		"op": "move",
 		"frompath": "/server/behaviors/9/dropsByType",
 		"path": "/dropsByType",
-		"file": "game:entities/land/bowtorn.json",
+		"file": "game:entities/lore/bowtorn.json",
 		"dependsOn": [ { "modid": "wilderlandsdrops", "invert": true } ],
 		"side": "server"
 	},
@@ -27,61 +27,61 @@
 		"op": "replace",
 		"path": "/server/behaviors/3/hoursToDecay",
 		"value": 0.1,
-		"file": "game:entities/land/drifter.json",
+		"file": "game:entities/lore/drifter.json",
 		"side": "server"
 	},
 	{
 		"op": "replace",
 		"path": "/server/behaviors/3/hoursToDecay",
 		"value": 0.1,
-		"file": "game:entities/land/shiver.json",
+		"file": "game:entities/lore/shiver.json",
 		"side": "server"
 	},
 	{
 		"op": "replace",
 		"path": "/server/behaviors/3/hoursToDecay",
 		"value": 0.1,
-		"file": "game:entities/land/bowtorn.json",
+		"file": "game:entities/lore/bowtorn.json",
 		"side": "server"
 	},
 	{
 		"op": "remove",
 		"path": "/client/behaviors/4",
-		"file": "game:entities/land/drifter.json",
+		"file": "game:entities/lore/drifter.json",
 		"side": "server"
 	},
 	{
 		"op": "remove",
 		"path": "/client/behaviors/4",
-		"file": "game:entities/land/shiver.json",
+		"file": "game:entities/lore/shiver.json",
 		"dependsOn": [ { "modid": "wilderlandsdrops", "invert": true } ],
 		"side": "server"
 	},
 	{
 		"op": "remove",
 		"path": "/client/behaviors/4",
-		"file": "game:entities/land/bowtorn.json",
+		"file": "game:entities/lore/bowtorn.json",
 		"dependsOn": [ { "modid": "wilderlandsdrops", "invert": true } ],
 		"side": "server"
 	},
 	{
 		"op": "remove",
 		"path": "/server/behaviors/9",
-		"file": "game:entities/land/drifter.json",
+		"file": "game:entities/lore/drifter.json",
 		"dependsOn": [ { "modid": "temporaltechnology", "invert": true } ],
 		"side": "server"
 	},
 	{
 		"op": "remove",
 		"path": "/server/behaviors/9",
-		"file": "game:entities/land/shiver.json",
+		"file": "game:entities/lore/shiver.json",
 		"dependsOn": [ { "modid": "wilderlandsdrops", "invert": true } ],
 		"side": "server"
 	},
 	{
 		"op": "remove",
 		"path": "/server/behaviors/9",
-		"file": "game:entities/land/bowtorn.json",
+		"file": "game:entities/lore/bowtorn.json",
 		"dependsOn": [ { "modid": "wilderlandsdrops", "invert": true } ],
 		"side": "server"
 	}
