@@ -1,0 +1,74 @@
+[
+	{
+		"op": "replace",
+		"path": "/0/enabled",
+		"value": false,
+		"file": "zrustdrops:patches/survival-entities-lore.json",
+		"side": "server",
+		"dependsOn": [ { "modid": "aldiclasses" } ]
+	},
+	{
+		"op": "replace",
+		"path": "/1/enabled",
+		"value": false,
+		"file": "zrustdrops:patches/survival-entities-lore.json",
+		"side": "server",
+		"dependsOn": [ { "modid": "aldiclasses" } ]
+	},
+	{
+		"op": "replace",
+		"path": "/2/enabled",
+		"value": false,
+		"file": "zrustdrops:patches/survival-entities-lore.json",
+		"side": "server",
+		"dependsOn": [ { "modid": "aldiclasses" } ]
+	},
+	{
+		"op": "replace",
+		"path": "/6/enabled",
+		"value": false,
+		"file": "zrustdrops:patches/survival-entities-lore.json",
+		"side": "server",
+		"dependsOn": [ { "modid": "aldiclasses" } ]
+	},
+	{
+		"op": "replace",
+		"path": "/7/enabled",
+		"value": false,
+		"file": "zrustdrops:patches/survival-entities-lore.json",
+		"side": "server",
+		"dependsOn": [ { "modid": "aldiclasses" } ]
+	},
+	{
+		"op": "replace",
+		"path": "/8/enabled",
+		"value": false,
+		"file": "zrustdrops:patches/survival-entities-lore.json",
+		"side": "server",
+		"dependsOn": [ { "modid": "aldiclasses" } ]
+	},
+	{
+		"op": "replace",
+		"path": "/12/enabled",
+		"value": false,
+		"file": "zrustdrops:patches/survival-entities-lore.json",
+		"side": "server",
+		"dependsOn": [ { "modid": "aldiclasses" } ]
+	},
+	{
+		"op": "replace",
+		"path": "/13/enabled",
+		"value": false,
+		"file": "zrustdrops:patches/survival-entities-lore.json",
+		"side": "server",
+		"dependsOn": [ { "modid": "aldiclasses" } ]
+	},
+	{
+		"op": "replace",
+		"path": "/14/enabled",
+		"value": false,
+		"file": "zrustdrops:patches/survival-entities-lore.json",
+		"side": "server",
+		"dependsOn": [ { "modid": "aldiclasses" } ]
+	}
+]
