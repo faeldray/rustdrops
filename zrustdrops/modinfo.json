@@ -1,7 +1,7 @@
 {
 	"type": "content",
 	"name": "Rust Drops",
-	"version": "2.1.0",
+	"version": "2.1.1",
 	"description": "Rust/temporal corpses auto-drop loot and decay quickly",
 	"modid": "zrustdrops",
 	"authors": [ "Faeldray" ],
@@ -9,7 +9,7 @@
 	"requiredOnClient": true,
 	"requiredOnServer": true,
 	"dependencies": {
-		"game": "1.21.0",
+		"game": "1.22.0",
 		"survival": "*"
 	}
 }
